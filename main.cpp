@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <fstream>
 #include <string>
+#include <Windows.h>
 
 using namespace std;
 
@@ -87,6 +88,7 @@ int main()
         default:
 
             cout << "Wrong input, try again" << endl;
+            Sleep(1000);
             break;
         }
     }
